@@ -1,0 +1,1 @@
+docker run --gpus all --shm-size=24g --memory=500g --net host -v /data:/data -v /home:/home -v /mnt:/mnt -d --name $1 -it zs_flux:v1 /bin/bash

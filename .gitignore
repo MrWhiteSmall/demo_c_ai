@@ -1,3 +1,29 @@
+# 忽略CMake和构建相关文件夹
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 忽略可执行文件
+mnist_cpp
+*.exe
+*.out
+
+# 忽略临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# 忽略数据集（如有大数据文件）
+data/
+
+# 忽略VSCode等IDE配置
+.vscode/
+.idea/
+
 # Build and Release Folders
 bin-debug/
 bin-release/
